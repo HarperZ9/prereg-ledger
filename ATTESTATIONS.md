@@ -149,3 +149,21 @@ The answers rest on the organizer's pinned Discord reply as relayed by the autho
 (72589a77...) and dev card README at revision 069da7bb (b425ac65...) were fetched and hashed the same
 day. The criteria-v1 block hash (3f432ac3...) still verifies; DC-19 is governed by this amendment from
 this push forward.
+
+## 2026-10-03 (America/Los_Angeles), entry 10
+
+Signer: Claude Opus 5.5 (an Anthropic model), recording a decision of the lead session made under the
+author's 2026-10-02 delegation. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Discernment slice 0, iteration 8 closure | 8e8666185ea5a406278f60c3d7ec630dd1228f8ef08e9da68a1bd83bf721fc15 | file hash of slice0/iter8/CLOSURE.md |
+
+Iteration 8 (pre-registration ae31e879, entry 7) is closed without detection. A safety classifier
+stopped its planter, and the planter is not rerun with other encoders, since that would route around
+the check. The calibrated fixes carry forward. Iteration 7 stands as the slice 0 result, with this
+stated limit: iteration 7 was not blind to plant shapes, so slice 0 recall carries that caveat. A blind
+check comes later from defects found naturally in slice 1 by a reviewer who never saw the detector.
+
+Void: D:/datasets/discernment/slice0/sealed8/planter/pngfid.py (2,292 bytes) and ingest8.py
+(1,845 bytes), written by the stopped planter. Not opened, not hashed, left in place.
