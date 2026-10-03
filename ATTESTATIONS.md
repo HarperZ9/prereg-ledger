@@ -83,7 +83,7 @@ Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-
 Pushed before any F1 model output exists. The frozen judge config hash follows in a later entry,
 before the single held-out run.
 
-## 2026-10-03 (America/Los_Angeles), entry 5
+## 2026-10-03 (America/Los_Angeles), entry 6
 
 Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
 2026-10-03 approval of the synthesis recommendations. Zain Dana Harper did not sign personally.
@@ -94,3 +94,6 @@ Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-
 
 Limits: the G4 per-arm summaries this gate is measured against were public before this file was
 written; the pre-registration says so.
+
+Correction: this entry was first pushed with the heading "entry 5" while another session's entry 5
+already existed. It is entry 6; the hash and scope are unchanged.
