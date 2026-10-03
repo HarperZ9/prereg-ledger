@@ -135,3 +135,17 @@ hashed and before this push.
 Correction: this entry was pushed with the heading "entry 9"; it is entry 8. Two entries carry the
 heading "entry 6": the effort-gate entry (pushed first, commit 4c53220, renumbered in the next commit)
 and the entry after it. Hashes and scopes are unchanged; the push log orders them.
+
+## 2026-10-03 (America/Los_Angeles), entry 9
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and his
+2026-10-03 instruction to act on the organizer reply. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| MMBU amendment for the organizer answers of 2026-10-03 (includes DC-19 amendment 1, local scoring pins, judge-change risk) | 09208a9589544347492518ef7294e06821afc4f14f201e6b2e35fc9761573873 | file hash of mission-control/2026-10-02-mmbu/AMENDMENT-ORGANIZER-ANSWERS-2026-10-03.md; written before any scoring module, row renderer or frozen artifact changed |
+
+The answers rest on the organizer's pinned Discord reply as relayed by the author; the brief
+(72589a77...) and dev card README at revision 069da7bb (b425ac65...) were fetched and hashed the same
+day. The criteria-v1 block hash (3f432ac3...) still verifies; DC-19 is governed by this amendment from
+this push forward.
