@@ -120,7 +120,7 @@ Dana Harper did not sign personally.
 Pushed before the result it governs. Note: two entries above carry the heading "entry 6"; this entry
 takes the next free number.
 
-## 2026-10-03 (America/Los_Angeles), entry 9
+## 2026-10-03 (America/Los_Angeles), entry 8
 
 Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
 2026-10-03 approval of the synthesis recommendations. Zain Dana Harper did not sign personally.
@@ -131,3 +131,7 @@ Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-
 
 Limits: the floor was computed on the 50-call hard-set log as a smoke test after this file was
 hashed and before this push.
+
+Correction: this entry was pushed with the heading "entry 9"; it is entry 8. Two entries carry the
+heading "entry 6": the effort-gate entry (pushed first, commit 4c53220, renumbered in the next commit)
+and the entry after it. Hashes and scopes are unchanged; the push log orders them.
