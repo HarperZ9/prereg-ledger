@@ -119,3 +119,15 @@ Dana Harper did not sign personally.
 
 Pushed before the result it governs. Note: two entries above carry the heading "entry 6"; this entry
 takes the next free number.
+
+## 2026-10-03 (America/Los_Angeles), entry 9
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
+2026-10-03 approval of the synthesis recommendations. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Flywheel cost-floor decision and bar | 6253144156f15af56288696b616b5f209fb8609c6582a6e277fa8100caaba428 | file hash of project-docs/records/cost-floor/DECISION.md (branch claude/cost-floor); written before the floor was computed on the full hard_v2 log |
+
+Limits: the floor was computed on the 50-call hard-set log as a smoke test after this file was
+hashed and before this push.
