@@ -28,3 +28,15 @@ headers confirmed (w1 = TRITC / Sytox Orange, w2 = transmitted light); T7 redesi
 GPU budget released; Claude-written rationales for the MMBU training data approved (the author
 reports the approval; the written permission itself is to be filed with this ledger when available);
 BootLoops follow-up approved for sending.
+
+## 2026-10-02 (America/Los_Angeles), entry 2
+
+Signer: Claude Opus 5.5, on the author's instruction and approvals of 2026-10-02 (see entry 1).
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Telos Track A pre-registration 3 (T7 v2, L1 budget, SSIM step) | 0d4217b7c110e4c5bb6c06e9db9f7a7d3f50127830416fb980701c7f87726261 | block hash as reported in BUILD-T7-MMBU.md; written before any T7 v2 code or data |
+| MMBU rationale pilot 1 pre-registration | e10213578c86c2524341a28495a6a2babb10916ff46637c8b5305cd23e526059 | file hash of pilot1/PREREG.md |
+| Discernment criterion DC-2, amendment 1 | ae874852441f8e61dbb90ff58baa93db2e97a06421d4e49944cce851610a670c | file hash of DC-2-AMENDMENT-1.md; narrows DC-2 to permit Claude-written rationale slots with per-slot provenance; lapses if the organizers rule judge-family rationales are evaluator exploitation |
+
+Limit: pre-registration 3 and the pilot pre-registration were written before their results but reach this ledger after them. Their in-repo commits (site branch commit 172fee7) are the earlier record; this entry proves existence from this push forward. The DC-2 amendment is recorded before any training run.
