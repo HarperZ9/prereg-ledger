@@ -180,3 +180,16 @@ lead session's instruction of 2026-10-03. Zain Dana Harper did not sign personal
 Checkpoint-selection evidence only, under organizer answer 6 as recorded in entry 9. Nothing from this
 run enters training. The scorer was checked before the run on an oracle reply set built from the dev
 key (T_em 3,146 of 3,147; shuffled-key control 18 of 3,147).
+
+## 2026-10-03 (America/Los_Angeles), entry 12
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
+lead session's instruction of 2026-10-03. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Gather G3 v2 pre-registration (quote required on every citation, regenerate up to 2 times) | 8c14e213becbc31957dc90df5acc4dfe85b0458ab845d1f4ec68ebaf87f94e89 | UTF-8 bytes strictly between the g3v2-prereg start and end marker lines of mission-control/2026-10-03-synthesis/GATHER-DECISION.md, LF line endings, 4,396 bytes; written before any G3 v2 code change or run |
+
+The G3 null (pooled citation precision 19/88 and 23/62, both under a 0.80 Wilson lower bound) stays as
+recorded in the same file. G3 v2 holds the question set, models, metric and bar fixed and changes only
+the prompt rule and the regenerate step.
