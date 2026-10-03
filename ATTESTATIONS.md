@@ -97,3 +97,13 @@ written; the pre-registration says so.
 
 Correction: this entry was first pushed with the heading "entry 5" while another session's entry 5
 already existed. It is entry 6; the hash and scope are unchanged.
+
+## 2026-10-03 (America/Los_Angeles), entry 6
+
+Signer: Claude Opus 5.5, under the same delegation as entry 5.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| F1 frozen judge config (frozen_config.json) | 3af9e684933ceb80388e0b6c9bfdce7fcecda8bc4dac3e79e4dac2d4fae3a005 | questions, combiner family, coefficients and thresholds chosen on calibration rows only |
+
+Pushed before the single held-out run that entry 5's decision record governs.
