@@ -167,3 +167,16 @@ check comes later from defects found naturally in slice 1 by a reviewer who neve
 
 Void: D:/datasets/discernment/slice0/sealed8/planter/pngfid.py (2,292 bytes) and ingest8.py
 (1,845 bytes), written by the stopped planter. Not opened, not hashed, left in place.
+
+## 2026-10-03 (America/Los_Angeles), entry 11
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
+lead session's instruction of 2026-10-03. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| MMBU experiment 2 plan (zero-shot Qwen3.5-2B, dev set, official prompts and JSON shells) | 4fed107d11508d2d2a36531e877ff3cce045851e5c8352ed26ae64a91e50a1e2 | file hash of mission-control/2026-10-02-mmbu/exp2/PLAN.md; written before any experiment 2 generation |
+
+Checkpoint-selection evidence only, under organizer answer 6 as recorded in entry 9. Nothing from this
+run enters training. The scorer was checked before the run on an oracle reply set built from the dev
+key (T_em 3,146 of 3,147; shuffled-key control 18 of 3,147).
