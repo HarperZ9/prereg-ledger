@@ -68,3 +68,17 @@ was scored on 2026-10-02 (results in slice0/iter6/RESULTS.md), and the PREREG ha
 local run log before detection. This entry proves their existence from this push forward only. The
 iteration 7 hash is pushed before the result it governs. The repository owner can still rewrite
 history; GitHub's push event log is the independent timestamp.
+
+## 2026-10-03 (America/Los_Angeles), entry 5
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and his
+2026-10-03 approval of the Flywheel monitor sprint. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Flywheel F1 typed-question judge decision record | 2abbe37d13a0a31bfe7afc8506ca295756652504abec7192032a2179f52e2e29 | file hash of mission-control/2026-10-03-synthesis/f1-typed-judge/DECISION.md; written before any F1 model run |
+| F1 held-out split file (heldout.json) | 82062a9518f98caee2032dfcb8a5bb7c5ad6c9dc83c3881bfe6a5720d8c9ee4f | 396 Orca critic row indices, seed 20261003, grouped by scenario |
+| F1 held-out row bytes | fd31ce89de38dd2c4e868db2a36cbee3cb0abbbe7521c18acb9ca5d01c0e59b8 | raw JSONL lines of the 396 held-out rows joined by LF |
+
+Pushed before any F1 model output exists. The frozen judge config hash follows in a later entry,
+before the single held-out run.
