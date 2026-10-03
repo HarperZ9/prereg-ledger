@@ -82,3 +82,15 @@ Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-
 
 Pushed before any F1 model output exists. The frozen judge config hash follows in a later entry,
 before the single held-out run.
+
+## 2026-10-03 (America/Los_Angeles), entry 5
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
+2026-10-03 approval of the synthesis recommendations. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Flywheel search effort-gate pre-registration | c39ad37f1b35db96081800d31cd7228c95d9df313d5b8156854de6748ea35914 | file hash of project-docs/records/search-effort-gate/PREREG.md (branch claude/search-effort-gate); written before the gated pass rates and sample ratios were computed and before the live confirmation run |
+
+Limits: the G4 per-arm summaries this gate is measured against were public before this file was
+written; the pre-registration says so.
