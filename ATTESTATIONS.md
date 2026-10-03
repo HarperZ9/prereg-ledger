@@ -107,3 +107,15 @@ Signer: Claude Opus 5.5, under the same delegation as entry 5.
 | F1 frozen judge config (frozen_config.json) | 3af9e684933ceb80388e0b6c9bfdce7fcecda8bc4dac3e79e4dac2d4fae3a005 | questions, combiner family, coefficients and thresholds chosen on calibration rows only |
 
 Pushed before the single held-out run that entry 5's decision record governs.
+
+## 2026-10-03 (America/Los_Angeles), entry 7
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation. Zain
+Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Discernment slice 0, iteration 8 detector pre-registration (blind confirmation) | ae31e87963bcf1651bb990c65caf8fb5516e04a436466ff630d2feeb79ff8242 | file hash of slice0/iter8/PREREG.md; written before overlay8 or sealed8 was listed or opened, before iter8/PLANT.md existed, and before any iteration 8 calibration ran |
+
+Pushed before the result it governs. Note: two entries above carry the heading "entry 6"; this entry
+takes the next free number.
