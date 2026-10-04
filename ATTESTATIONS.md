@@ -334,3 +334,63 @@ Governed by entry 17. The writer arm missed its pre-registered coverage gate: 54
 and 1 of 960 classification rows were accepted, against 20% each. It is not trained, and the default
 stays Claude-free. Recorded as a null. All 131 cross-split perceptual-hash pairs of slice 1 were viewed,
 and none is a near-duplicate, so DC-3 is met. The download request waits for the author.
+
+## 2026-10-04 (UTC), entry 19
+
+Signer: Claude Opus 5.5 (an Anthropic model), a subagent of the lead session, under the author's
+2026-10-02 delegation ("lead projects and make the calls with written reasons; GPU free; hash signed in
+prereg-ledger"). Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Monitorability pre-registration (concept 1 trace-role receipt; concept 2 known-invisible bank, text half) | a0d2b21a5e512b82ac6ce4e360f8faf5d32cc4cfed9ad8295fa71fbfcde49866 | file hash of mission-control/2026-10-04-monitorability/PREREG.md, 15,005 bytes, LF line endings |
+| Item banks | c07ef6bff054a43c577224370c3b941b2c361961b3baf48709902b65d441704d; 6a97151bafcef5d148db80e6d043305c2cd834302086b0ec8ddb8b934bf7ec52 | run/items_c1.jsonl (1,200 items); run/items_c2.jsonl (1,000 items) |
+| Run and analysis programs | b308684f4ffaeafbc57542f82497a4cb9762221dd8a6004af63a895c4f93f598; dac095f649e412f96c0c35804fba4d79ed6e7ffda21cb230ee537c09b30abf13 | run/run_all.py; run/analyze.py (common.py and gen_items.py hashes are inside the prereg) |
+| Subject model weights (qwen3:8b, Ollama 500a1f067a9f) | a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f | GGUF model blob in the local Ollama store |
+
+Written before any model call for this run. No training, no download, no API spend. Not committed or
+pushed by the signer; the lead session decides the push.
+
+## 2026-10-04 (UTC), entry 20
+
+Signer: Claude Opus 5.5 (an Anthropic model), a subagent of the lead session, under the author's
+2026-10-02 delegation ("lead projects and make the calls with written reasons; GPU free; hash signed in
+prereg-ledger"). Zain Dana Harper did not sign personally. The Qwen3-VL 4B and 8B weights were fetched
+under the author's 2026-10-04 approval ("downloads approved").
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Representation series pilot pre-registration (VISTA synthesis section 7, with rescout 4.2 null arms and a monitor arm) | 5f6fc9ca3e832615d83ac0ac368c7ef5a05ba9dc819523698561dc590c18b6c8 | file hash of mission-control/2026-10-04-vista-latent/PREREG.md, 14,267 bytes, LF line endings |
+| Game sets G and G-dev | 5f3fb3e7e9b92d48a859555bbdcca6287c54676ef95e12a4b2f17176b4c67100; 9b3cc45b71828cf211b3488cb436f88050f5e2ea173cfab4f88982c455f8a6cc | run/games_G.jsonl (40 games, seeds 704000 to 704039); run/games_Gdev.jsonl (10 games, seeds 709000 to 709009) |
+| Generator, arms, runner, series driver | ccbc7756ee60da0f0ccd0b1bceee23e38f3ca14c7d2ac617896770d66bc10ea1; 6b12d6e6b07996900d4b8d6ff63eec7eaa5c072734722a41e1c3f18d5d55bbfc; 31ea0ea5b4419e7a0206174529a3e3e3b86b8459cf8cc15b4b9ff30613e1c64a; 7a72c17101d60c8ce5291aeb17e78e934190bb8d5838570962c4dd63e91d98ba | run/games.py; run/arms.py; run/run_model.py; run/run_series.sh |
+| Decision rule, monitor, analysis, parity check | a6aafe218e3d24800caef341260782bfb401c1cdd467044d22f9c558e8df0573; 3909b067ee93ef31a65a81fa07a9aede27a44857035331ef01fde5e0fa5d1818; 4e44938695bf75299cc41c0e26487b70170c336e4d2607ac8b3361bd8d747e9b; b28cda11cd01a523db0ab8f23b5bcb544ecabf61ae73b93f429ac974e046db98 | run/decide.py; run/monitor.py; run/analyze.py; run/check_parity.py |
+| Subject model weights (Qwen3-VL-4B-Instruct @ ebb281ec, Qwen3-VL-8B-Instruct @ 0c351dd0; Apache-2.0) | bbf722d0eb2e46d0db90861383e19bb1bde179f4313589020c945d1fbfd5245f | file hash of run/weights_sha256.txt (sha256 of all six safetensors shards); Qwen3-VL-2B-Instruct @ 89644892 weights as in entry 17 |
+
+Written before any model call for this series. Scripted controls only (no model) ran before hashing: the
+optimal harness check completed 120 of 120 levels in all 8 arms, and the seeded random floor was 16 to 24
+of 120. No training, no new download, no API spend. Not committed or pushed by the signer; the lead
+session decides the push.
+
+## 2026-10-04 (UTC), entry 21
+
+Signer: Claude Opus 5.5 (an Anthropic model), the MMBU lead session, under the author's 2026-10-02 delegation
+("lead projects and make the calls with written reasons; GPU free; hash signed in prereg-ledger"). Zain Dana Harper
+did not sign personally. Slice 2 downloads were approved by the author (core, DSAD, IXI; LUNA16 excluded).
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| FT2 pre-registration | cdb7142671f00a454ecaaa09faddbbad2777fbeabf8a4822ced7f12625c3b1a5 | file hash of mission-control/2026-10-02-mmbu/train/ft2/PREREG-FT2.md, 10,161 bytes, LF |
+| FT2 training rows | b7945fb832ad098bc94be0c8256a1f331107f2062a29839160f8dc3fbc2145de | slice2/train2/train_rows_ft2.jsonl, 11,172 rows |
+| FT2 held-out rows | 71d260d60b9d3896127bbab2b0fb0f7a9af328ce7a7ed574a69350c6a6a9e796 | slice2/train2/eval_heldout2.jsonl, 2,299 rows |
+| FT2 in-source rows | b115e613c4540d3dbeb369baf353a5b80359b371233eb1746f9378cf03b54005 | slice2/train2/eval_insource2.jsonl, 1,080 rows |
+| Held-out source draw (R-HELDOUT-SRC-v2) | b3d1f800576f263ab2dbd7201cde3bd875ec87e91cf498465147c87d12352dfb | slice2/train2/heldout2.json |
+| Config, pipeline, lock helper | 2169301f16ffad28afe7166e0f2a85e63c45e14e2a92a4d7f2e5cb42e929472e; 91535676f10ae9932cc339ad1a4c4c8c4f16b8886b976f7cbb2ceed94ad3c723; e697a92e57318edbb72d52a2e78264e9a4facdc072cb8ed832e8186bedac3673 | train/ft2/ft2_config.json; train/ft2/run_ft2.sh; train/ft2/gpu_lock_ft2.sh |
+| Programs | 4e230b2f8fe86fb331957c0f13d84561f1f8f53c9966a1ff5e566a5a21c78348; 60e3a7728a128e1ce26f34d6fee5cbd8753fb690e451e29f62e725b8f2148f10; 946083d657b7e4c7e435d45da964da5786d6c8d00945784070a832c03f0878e4; 94c415604cefaeca68aa10a5420388920342a1d48fe8be0cab68d3bb68e8d6c4; 2354187af1e4ba6c0d546f1efb4f80e3178b62e45d42470d925481104cef970f | train/train2.py; train/evaluate3.py; train/trainset2.py; train/heldout2.py; train/ft2/score_ft2.py |
+| Slice 2 build run1 output hashes | 23cc2358f5de9b03cd0d69d25c313a2edda156e18c966b791bfe972cf8528cb5 | slice2/build/run1/hashes.json (fact table 089862b4..., rows 29968d64...) |
+| Slice 2 near-duplicate second stage | b199670bd3980dbe7c6a01c26044684b4ca27bf9602ad2676ae5557e78738cbf | slice2/build/run1/neardup_confirm.jsonl, 17,797 candidate pairs |
+| Slice 2 raw integrity | 902dbbcc3fb5adcf6cfde30e57f5c89f4d252e24a97eeea8d8b17a1bad0205f0; f8c4789882b10654b5760537a4a82720a47a6e8342e91f2824ea911d9267db20 | slice2/verify/rehash.jsonl (703 of 703 SHA-256 equal MANIFEST.tsv 68878413...); verify/hostcheck.json (480 host checksums match, 0 mismatch, 223 files without a host hash) |
+| Live terms read 2026-10-04T07:42:29Z | f75d4085e6cb0783b00d996b357950a758efb81b9246d0501273c09cd1ebc36e | train/ft2/evidence/SHA256SUMS (Commercial Terms, Consumer Terms, Usage Policy page bytes) |
+| Row pre-check | 5169b3c175bf35af43145fdc0deade1f3198a9f20aa9b80793a0d21cc8748e9b | train/ft2/tokcheck.json: 11,172 rows encode within 2,048 tokens; 11,172 rendered replies strict |
+
+Written before any FT2 generation or optimizer step. FT2 targets contain no Claude-written text. Not pushed by
+the signer; the lead decides the push.
