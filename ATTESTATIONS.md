@@ -260,3 +260,19 @@ lead session's 2026-10-03 instruction. Zain Dana Harper did not sign personally.
 
 Pushed after a three-row harness dry run, which saved nothing, and before the first evaluation
 generation or optimizer step. Research checkpoint only (Q2 sources in training, I-2).
+
+## 2026-10-04 (UTC), entry 16
+
+Signer: Claude Opus 5.5 (an Anthropic model), under the author's 2026-10-02 delegation. Zain Dana
+Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| FT1 results | cbb200ce3a4be9225efb033976e542867913189b004fd505d94aac5cbdeb53e0 | file hash of mission-control/2026-10-02-mmbu/train/RESULTS-FT1.md |
+| FT1 LoRA state | c695687530c13b2e58ca15e1a8ac6e4581f4fc4b87bface31c7faf25350055cd | lora_state.pt after 259 steps |
+| FT1 dev runs, Pass 1 / Pass 2 | d9b8b88e7c97b3c38abf5e6f617681d30eae6494a13d094ead27ad52481a8bb1 / 7e2e9cd7f86f94dd4cf36370d7362a97784fb529bcdb5d8e2680900fda49979c | exp3/runs/FT1_task.jsonl and FT1_context.jsonl |
+| FT1 dev scores | de0b9bb4945c886562141f8e8d3f704856c1017f5656a943c68e223c5b612580 | exp3/exp3_results.json |
+
+These results are governed by entry 15. The pre-registered held-out answer bar was not met (FT1 minus
+zero-shot +0.040, cluster 95% 0.000 to 0.079), so the change trigger fires: data work next, no larger
+run. Recorded as a null.
