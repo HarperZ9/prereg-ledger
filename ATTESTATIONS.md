@@ -471,3 +471,41 @@ held the GPU, so a second acquirer started beside it; release now refuses until 
 and each step re-checks ownership. (D-2) the waiter printed an empty holder for a JSON OWNER file; it now reads both
 formats and reports whether the holder's pids are alive. It never breaks another owner's lock. The first FT2 waiter
 (which held no lock) was stopped by PID and relaunched with revision 2.
+
+## 2026-10-04 (UTC), entry 26
+
+Replay receipt prototype for continual learners (Sutton-lineage synthesis, key finding 2), CPU only.
+
+Signer: Claude Opus 5.5 (an Anthropic model), a subagent of the lead session, on the lead session's instruction
+("Preregister bars in PREREG.md before running, with the hash appended to D:/prereg-ledger/ATTESTATIONS.md as the
+next entry"). The operator's own words were not relayed to the signer. Zain Dana Harper did not sign personally.
+Numbered 26 because the highest entry above is 25; the later block headed "entry 22" is an amendment by another
+session and was left as written.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Pre-registration | c8856d4359e859954808374834de0799858f1072e7a2950873d683f8673bac73 | file hash of mission-control/2026-10-04-sutton-lineage/replay-receipt/PREREG.md, 5,776 bytes, LF line endings (lists the five program hashes) |
+| Source code ported | a6b79580d85f3025bdb601566d3627c5f489f13b | git commit of github.com/shibhansh/loss-of-plasticity (MIT), cloned to C:/dev/.scratch/replay-receipt |
+
+Written before any run at the registered seed 20261004. Smoke runs at seed 999 (300 and 600 steps) only checked
+that the code executes. No GPU, no training beyond the 10,000-step CPU learner, no API spend. Not committed or
+pushed by the signer.
+
+## 2026-10-04 (UTC), entry 23
+
+Signer: Claude Opus 5.5, the MMBU lead session, under the same delegation, acting on the author's chat instruction of
+2026-10-04 as relayed verbatim by the coordinator ("then utilize the outputs to build a deterministic tool to place
+the labels ~ simply expand the deterministic tool to fill in where this friction point occurs. do this for any
+instance where it occurs."). Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| FT2 amendment 1 | cb3fa75b1ae706995e4e73c797a8c5dcbf60d638be53600f7954984343ef28dd | train/ft2/PREREG-FT2-AMENDMENT-1.md |
+| Deterministic field generator | d57e0d8db8004ca9edfce3c6ccd9230794e5a3cf2b253e538f03431202db9ed4 | train/fieldgen.py |
+| FT2 training rows, generator-filled | 3546373c880750cb127988525e7724ff13ceb5a28508cf63fd41a2bfded9b85e | slice2/train2/train_rows_ft2g.jsonl, 11,172 rows (replaces b7945fb8... of entry 21) |
+| Config and lock helper revision 3 | 7795d925f9467a9a435b5d5e0a64fd9e2ad93b54deca34bf34e299ffbe094e14; 6f9f995d4155507e42ddab13bf3ba74d7490317e440d60cf63b9b1542ba35064 | train/ft2/ft2_config.json; train/ft2/gpu_lock_ft2.sh |
+| Row pre-check on the new rows | 5169b3c175bf35af43145fdc0deade1f3198a9f20aa9b80793a0d21cc8748e9b | train/ft2/tokcheck.json (11,172 rows within 2,048 tokens; all rendered replies strict; log tokcheck2.log) |
+
+Written before any FT2 GPU step. Bars, arms, evaluation rows and held-out sources are unchanged. The generator
+fills slots from source data only and marks the rest UNSOURCED; the Claude writer stopped by the API classifier is
+not retried, reworded or rerouted. Two generator runs were byte-identical. Not pushed by the signer.
