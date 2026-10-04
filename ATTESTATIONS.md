@@ -394,3 +394,80 @@ did not sign personally. Slice 2 downloads were approved by the author (core, DS
 
 Written before any FT2 generation or optimizer step. FT2 targets contain no Claude-written text. Not pushed by
 the signer; the lead decides the push.
+
+## 2026-10-04 (UTC), entry 22
+
+Signer: Claude Opus 5.5 (an Anthropic model), a subagent of the lead session, under the author's 2026-10-02
+delegation ("lead projects and make the calls with written reasons; GPU free; hash signed in prereg-ledger").
+Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| SEALED-SHARE-1 pre-registration (social-learning synthesis section 6) | 9fa88444a48a7b030c5c4f60b8567a7a578bb3d8aa130dae5b6f05a8b07dcc2e | file hash of mission-control/2026-10-04-social-learning/run/PREREG.md, 13,790 bytes, LF line endings |
+| Corpus and answer-key manifests | c60b6e7087efd140e1eecea605be8287bc096ceffd22fe19ab0285c4727028e6; 4b21ff4a31611786362f9fca06b0066d4101528822a74ba7b3109a2a4ac3459c | run/corpus_manifest.sha256 (420 files, seeds 61001 to 61012 and smoke 69001, 69002); run/keys_manifest.sha256 (14 keys) |
+| Programs | 578b3bb455d968e8a3885967fdb849adcf4309dde5adbe11c9aae3d6d5704bd2; ec6f129606a5120a37da9501bf33a7557d743c5238c2119dfda8b9e63b287c1a; 63ac17cfe16b4084e18f6109be8f1718b0384182425d3df51eceac93ba39ae44; 9ffd73a38f6b7ad45c8edcb402d5c1b0b5bc178edd437237a13fcc6b250cbf08; 6e6bcbb0e8152a27ec3b22c6b81e580fdeb62ccde7362a3d36ef2dbac3a55b0a | run/gen_corpus.py; run/runner.py; run/analyze.py; run/baselines.py; run/series.sh |
+| Subject model weights (qwen3:8b, Ollama 500a1f067a9f; olmo2:7b, Ollama 4208d3b406db) | a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f; ea89e3927d5ef671159a1359a22cdd418856c4baa2098e665f1c6eed59973968 | GGUF model blobs in the local Ollama store, rehashed 2026-10-04 |
+
+Written before any model call for this run. Scripted controls only (no model) ran before hashing: the oracle
+recovered 5 of 5 high-value sentinels on all 12 seeds; the random opener averaged 4.75 of 5. No training, no
+download, no API spend. Not committed or pushed by the signer; the lead session decides the push.
+
+## 2026-10-04 (UTC), entry 23
+
+Planted-null canary on agent reports.
+
+Signer: Claude Opus 5.5 (an Anthropic model), the lead session, on the author's chat instruction of 2026-10-04
+("run the planted-null test now"). Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Pre-registration | fd14b1153f6cdd2be5efcbefd12cd943c634bb31c774a1558136c09a87adbf82 | file hash of mission-control/2026-10-04-planted-null/PREREG.md (includes the PLANTS.json hash) |
+
+Written before any report agent was launched. Not committed or pushed by the signer.
+
+## 2026-10-04 (UTC), entry 24
+
+Planted-null canary, no-tell rerun.
+
+Signer: Claude Opus 5.5 (an Anthropic model), the lead session, on the author's chat instruction of 2026-10-04
+("run the no-tell rerun"). Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Pre-registration | c8cfcf2dd2f3962ee0a359e940e7342e2d5f01b098f97c307512eddae66d6f39 | file hash of mission-control/2026-10-04-planted-null/rerun/PREREG.md (includes PLANTS.json and KEY.json hashes) |
+
+Written before any report agent was launched. Not committed or pushed by the signer.
+
+## 2026-10-04 (UTC), entry 25
+
+Local Jev-class judge: Clef-flash latency floor on the F1 rows and the Canny head-to-head on the claims-v1 test split.
+
+Signer: Claude Opus 5.5 (an Anthropic model), a subagent of the lead session, on the author's chat instruction of
+2026-10-04 relayed by the lead ("Run the preregistered Canny head-to-head plan ... Write and hash the prereg first").
+Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Pre-registration | 14cc279beef9fcde1f9612976cd72d715d46be72390103b91266bf46da7bd035 | file hash of mission-control/2026-10-04-jev/h2h/PREREG.md, 6,932 bytes, LF line endings |
+| Question texts | f8ee0d216ce1ec3c9dafe9cdcb5dead226719b16f51a744f5af36627a5d5badf | h2h/questions.json |
+| Server and lock programs | bc0d739266c8a12585ee94665e1c4f28bbf20c2cc1de29d71b543ab0d05bdf1d; 716c045d494cdecd300dabf19992158ee7ba44cb8dc1fd4074089d8ca7218ff4 | local-judge/serve_clef.py; local-judge/gpu_lock.py |
+| Test split | 5282f9211b82d45ec10c8bee9f9d00516a82501df5950cd6fc28f8fc23dea93e | D:/classifiers/claims/data/b_test.jsonl, unread by any Clef or Canny arm |
+
+Written before any Clef-flash call on claims data and before the test file's contents were read. The J2 combiner,
+thresholds and scoring programs follow as a separate entry before any test row is read. Measures Clef-flash, not Jev.
+Not committed or pushed by the signer.
+
+## 2026-10-04 (UTC), entry 22
+
+Signer: Claude Opus 5.5, the MMBU lead session, under the same delegation. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| GPU lock helper for FT2, revision 2 | d2fe56a15690e99b08dad7b4eacd1728950f7621f134b2ed00539e3277dd97fc | train/ft2/gpu_lock_ft2.sh (replaces e697a92e... of entry 21) |
+
+Amends entry 21 before any FT2 GPU step; no other file, bar or row changes. Two lock defects, raised by the
+coordinator, are fixed: (D-1) the FT1 abort at 01:36Z released a lock while the stopped owner's child python still
+held the GPU, so a second acquirer started beside it; release now refuses until every recorded step pid is dead,
+and each step re-checks ownership. (D-2) the waiter printed an empty holder for a JSON OWNER file; it now reads both
+formats and reports whether the holder's pids are alive. It never breaks another owner's lock. The first FT2 waiter
+(which held no lock) was stopped by PID and relaunched with revision 2.
