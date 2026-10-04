@@ -193,3 +193,35 @@ lead session's instruction of 2026-10-03. Zain Dana Harper did not sign personal
 The G3 null (pooled citation precision 19/88 and 23/62, both under a 0.80 Wilson lower bound) stays as
 recorded in the same file. G3 v2 holds the question set, models, metric and bar fixed and changes only
 the prompt rule and the regenerate step.
+
+## 2026-10-03 (America/Los_Angeles), entry 13
+
+Signer: Claude Opus 5.5 (an Anthropic model), recording the author's approval as given to the MMBU
+session in chat, under his 2026-10-02 delegation. Zain Dana Harper did not sign personally.
+
+Approval, the author's words in chat on 2026-10-03: "Downloads approved." It covers the 12 files in
+mission-control/2026-10-02-mmbu/slice1/DOWNLOAD-REQUEST.md. The lead session fetched them into
+D:/datasets/discernment/slice1/raw/. All 12 sizes equal the expected bytes. The four Zenodo files also
+match Zenodo's MD5 checksums; the NLM and Broad hosts publish no checksum, so those eight rest on size
+plus the SHA-256 below. The MMBU session recomputed every SHA-256 below from the files on disk before
+this push, and each equals the manifest.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Slice 1 download manifest (MANIFEST.tsv) | a9e9c49144d73589809f0c6b26c7ce4fa6baf8d888c1fec090e87cf14e63277c | file bytes of D:/datasets/discernment/slice1/raw/MANIFEST.tsv (file, expected and actual bytes, host MD5 status, SHA-256, URL per file) |
+| camelyonpatch_level_2_split_valid_x.h5.gz (PCam, Zenodo 2546921) | f82ee1670d027b4ec388048d9eabc2186b77c009655dae76d624c0ecb053ccb2 | file bytes, 805,965,320 |
+| camelyonpatch_level_2_split_valid_y.h5.gz (PCam) | ce1ae30f08feb468447971cfd0472e7becd0ad96d877c64120c72571439ae48c | file bytes, 3,038 |
+| camelyonpatch_level_2_split_valid_meta.csv (PCam) | 8ea89aed388b946c2e869db3dc2f3c0816b643247a830a838ce47e74dfbcd82b | file bytes, 1,850,810 |
+| NuInsSeg.zip (Zenodo 10518968) | f606aac71112ea0915d55183d0911b5b66f86cabc265b09dbebbd4abb2a15271 | file bytes, 1,627,427,342 |
+| NIH-NLM-ThinBloodSmearsPf.zip (NLM) | 3d86af70b3a80d7ecdcc07f8fee0d0d9c9c197cccd907e239abb92c0357c3ea9 | file bytes, 690,355,704 |
+| Dataset_statistics.xlsx (NLM) | f4e8abe005763b97c0480c347ec19e016d6138b1f9dec37d2cc8aab53bc7b974 | file bytes, 66,112 |
+| images.zip (BBBC039) | 6f30a5d4fe38c928ded972704f085975f8dc0d65d9aa366df00e5a9d449fddd7 | file bytes, 77,915,748 |
+| masks.zip (BBBC039) | f9e6043d8ca56344a4886f96a700d804d6ee982f31e2b2cd3194af2a053c2710 | file bytes, 2,753,811 |
+| metadata.zip (BBBC039) | a2c1f900bed9ba92a99553efd4c2ae98598433691c7401d818653ab61110deb2 | file bytes, 17,816 |
+| BBBC034_v1_dataset.zip | 29c8981502e9f3bc84d0055e0ed6488f0145f712a1cf79389b934c83193cd381 | file bytes, 572,167,675 |
+| BBBC034_v1_DatasetGroundTruth.zip | b215c74b9872041ba69c586d84d933d88d0a8b836b4c6da441ca6aac20cc946b | file bytes, 713,766 |
+| BBBC032_v1_dataset.zip | 02df5ca7cdc9afb751c63161cabc0e7967310ed1911edaa8572764fb44455321 | file bytes, 1,144,926,586 |
+
+Pushed before any of these archives was opened for the slice 1 build. Invariant I-2 holds: PCam and
+the NLM smears are tier Q2, so their rows may serve measurement and a research fine-tune and never a
+submission-tagged run.
