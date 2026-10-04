@@ -314,3 +314,23 @@ beyond the quoted text. Routes: Claude-free data by default; one licence-checked
 Pushed before the writer model generated any line. Research scope only: the rows hold Q2 sources (I-2).
 If the organizers move the judge to a Qwen model, Qwen-written rows wait for their answer before any
 submission-tagged run (entry 9 guard).
+
+## 2026-10-04 (UTC), entry 18
+
+Signer: Claude Opus 5.5 (an Anthropic model), under the author's 2026-10-02 delegation and the lead
+session's decisions of 2026-10-04. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Writer arm result (null) | eaecc859d2ca0f2362b228c8f99ee6a7bfa43e20859a618b51cbfa3483306ce5 | file hash of mission-control/2026-10-02-mmbu/train/writer_arm/RESULTS-WRITER.md |
+| Writer lines (Qwen3-VL-2B-Instruct, Apache-2.0) | 3ef8cab881d4cd5653bf8f275fc0f0b746dd217532214c3c2230befa62ba791f | SHA256SUMS over writer_qwen/outA_*.jsonl and outB_*.jsonl, 2,076 lines |
+| Writer program as run (prompt revision 2) | e3e1f5e0ee1a7f4e7382cba9ae0e8ef29d16bafbb5029c350a85f0ab3caa7ae6 | train/writer_arm/writer_local.py |
+| Near-duplicate check (DC-3) | 0486744ac434e9de0cf2a2fe00ebfb0df3e80558bc90b5bfb3e0b6b9a694bfbc | file hash of slice1/NEARDUP-CHECK-2026-10-04.md |
+| Per-pair verdicts | cd2a7944d69a483d30b107e5f5488437ca989492ae23b50f04fe7345c37a50ba | slice1/neardup_verdicts.jsonl, 131 pairs, 131 distinct |
+| Slice 2 download request (not approved, nothing fetched) | 9356347389baa6c1dbbf6402482bc244b2c561e625fff44e3f9f1b5624609344 | file hash of slice2/DOWNLOAD-REQUEST.md |
+| Slice 2 licence record | 703aa08e41d134b4245e83ae419d5dd66a641300fd4fabd204502e3ec1f937ca | slice2/sources_licences.json |
+
+Governed by entry 17. The writer arm missed its pre-registered coverage gate: 54 of 1,080 context rows
+and 1 of 960 classification rows were accepted, against 20% each. It is not trained, and the default
+stays Claude-free. Recorded as a null. All 131 cross-split perceptual-hash pairs of slice 1 were viewed,
+and none is a near-duplicate, so DC-3 is met. The download request waits for the author.
