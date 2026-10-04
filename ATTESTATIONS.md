@@ -276,3 +276,41 @@ Harper did not sign personally.
 These results are governed by entry 15. The pre-registered held-out answer bar was not met (FT1 minus
 zero-shot +0.040, cluster 95% 0.000 to 0.079), so the change trigger fires: data work next, no larger
 run. Recorded as a null.
+
+## 2026-10-04 (UTC), entry 17
+
+Signer: Claude Opus 5.5 (an Anthropic model), under the author's 2026-10-02 delegation and the lead
+session's decisions of 2026-10-04. Zain Dana Harper did not sign personally.
+
+Correction to entries 14 and 16, which stay as written. The author corrected the terms wording on
+4 October 2026. The observed fact: an API classifier stopped the blind rationale writer before it wrote
+any line, and reported category "reasoning_extraction". The current terms, fetched 2026-10-04T03:37:17Z
+and quoted:
+
+- Commercial Terms (effective June 17, 2025), D.4: "Customer may not and must not attempt to (a) access
+  the Services to build a competing product or service, including to train competing AI models or resell
+  the Services except as expressly approved by Anthropic". Section B: Customer "owns its Outputs."
+- Consumer Terms (effective October 8, 2025), section 3 prohibits use "to develop any products or services
+  that compete with our Services, including to develop or train any artificial intelligence or machine
+  learning algorithms or models". Section 4 assigns Outputs to the user.
+- Usage Policy (effective September 15, 2025), "Do Not Abuse our Platform": "Utilization of inputs and
+  outputs to train an AI model (e.g., 'model scraping' or 'model distillation') without prior
+  authorization from Anthropic".
+
+Any link between the classifier category and a specific clause is inferred. This entry claims nothing
+beyond the quoted text. Routes: Claude-free data by default; one licence-checked open-weight writer arm
+(pre-registered below); prior authorization from Anthropic, which is the author's outbound call.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Correction record | f60220d3f92fec61ed93e5b4a8101c8b24b632d39a2cd4cd556585fa8c16d9f2 | file hash of mission-control/2026-10-02-mmbu/CORRECTION-2026-10-04-WRITER-TERMS.md |
+| Fetched terms and licence pages | 457e95d2748cda36f318356e2413ed37f0e076924dbdfe411779646999dd40b9 | file hash of train/writer_arm/evidence/SHA256SUMS (three anthropic.com/legal pages, the Qwen3-VL-2B-Instruct card, the Qwen3-VL Apache 2.0 LICENSE, the Hub API record) |
+| Writer arm pre-registration | e7c0a56689d01343c58a409794d2fe438f441f88cd649ce9a0dc219956c260fa | file hash of mission-control/2026-10-02-mmbu/train/writer_arm/PREREG-WRITER.md |
+| Writer model weights (Qwen/Qwen3-VL-2B-Instruct @ 89644892) | 7de1838c87a5349b016c26a1c3f7d2bc400a3d485f95ef39a7059ffd734977a0 | model.safetensors; licence Apache-2.0 |
+| Detection row program | a3ef21c110b43fdeaa20ac271c222b79261eac3fd13a001cb740120fbfd61bea | train/detrows.py |
+| Detection rows (box answers) | 89cd1446cd2d32b603c2e3f56c338258649326df00bb2a32ad04ee3cedb98894 | det_rows.jsonl, 202 rows: BBBC010 80 multi-box and 78 single-box, NuInsSeg 44 single-box |
+| Next training row set | 0564119718cc470f3c1559fb592cfef91aa5b8219f4eb8eaa1a55ccafa8f8354 | train_rows_v2.jsonl, 2,278 rows (FT1's 2,076 plus the 202 detection rows); every rendered target passes DC-19 |
+
+Pushed before the writer model generated any line. Research scope only: the rows hold Q2 sources (I-2).
+If the organizers move the judge to a Qwen model, Qwen-written rows wait for their answer before any
+submission-tagged run (entry 9 guard).
