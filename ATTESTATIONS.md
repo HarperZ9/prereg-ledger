@@ -225,3 +225,21 @@ this push, and each equals the manifest.
 Pushed before any of these archives was opened for the slice 1 build. Invariant I-2 holds: PCam and
 the NLM smears are tier Q2, so their rows may serve measurement and a research fine-tune and never a
 submission-tagged run.
+
+## 2026-10-04 (UTC), entry 14
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
+lead session's 2026-10-03 instruction to freeze F1 before any training. Zain Dana Harper did not sign
+personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Freeze F1 (criteria for scale, signed after slice 1) | 7118b76d64bc73d370c37a48cc13813f464cf15ee8a0141db4bbcad10d6a183e | file hash of mission-control/2026-10-02-discernment/F1.md |
+| Criteria v1 block, re-derived | 3f432ac39a1da6be10ecc01a1d5b382fc3b31ef061206485b2744ba4585a14db | unchanged since entry 1 |
+| Slice 1 full build fact table | 9e4dcd60b2a60339d67ccd419076005b5e74e07fe8e64d85723a989b8f635049 | records plus facts hashes, builds full1 and full2 identical |
+| Slice 1 full build rows | 7cdc9ab03135d6d6e99c0c1ec89f983e342417a16d4821e5f3ef025814a315bd | rows.jsonl, 3,346 rows over 1,727 images |
+
+F1 carries criteria v1 unchanged, with no criterion raised or lowered, and lists every slice number
+seen before signing. Pushed before any optimizer step. Scope: research fine-tune only (Q2 sources
+present, I-2). The blind rationale writer was stopped by an API safety classifier before writing a
+line and was not retried, so the first fine-tune trains on program-only targets.
