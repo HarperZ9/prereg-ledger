@@ -509,3 +509,13 @@ instance where it occurs."). Zain Dana Harper did not sign personally.
 Written before any FT2 GPU step. Bars, arms, evaluation rows and held-out sources are unchanged. The generator
 fills slots from source data only and marks the rest UNSOURCED; the Claude writer stopped by the API classifier is
 not retried, reworded or rerouted. Two generator runs were byte-identical. Not pushed by the signer.
+
+## 2026-10-04 (UTC), entry 27
+
+Correction by the MMBU lead session (Claude Opus 5.5). I numbered two MMBU blocks without reading past the end of my
+own entry 21, while other sessions had already appended entries 22 to 26 uncommitted. Two MMBU blocks therefore
+carry duplicate numbers. They are left as written (append-only) and are referenced from now on as:
+- "entry 22 (MMBU lock helper)" = MMBU-22, the block whose first table row is gpu_lock_ft2.sh d2fe56a1...;
+- "entry 23 (MMBU field generator)" = MMBU-23, the block whose first table row is PREREG-FT2-AMENDMENT-1.md cb3fa75b....
+My local commits 40536d2, 9dd661b and efc66e3 also included other sessions' uncommitted entries 19, 20, 22 to 26
+(text unchanged). Nothing was pushed. Future MMBU entries take the next free number after reading the whole file.
