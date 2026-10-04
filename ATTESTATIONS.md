@@ -243,3 +243,20 @@ F1 carries criteria v1 unchanged, with no criterion raised or lowered, and lists
 seen before signing. Pushed before any optimizer step. Scope: research fine-tune only (Q2 sources
 present, I-2). The blind rationale writer was stopped by an API safety classifier before writing a
 line and was not retried, so the first fine-tune trains on program-only targets.
+
+## 2026-10-04 (UTC), entry 15
+
+Signer: Claude Opus 5.5 (an Anthropic model), acting under the author's 2026-10-02 delegation and the
+lead session's 2026-10-03 instruction. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| MMBU FT1 pre-registration | e7bb7b736b36a10b28b179bcd7957ba8a1f13bcd5e53ac694f10ec41d04ca873 | file hash of mission-control/2026-10-02-mmbu/train/PREREG.md |
+| FT1 training config | 283b631c5b8cf94ed56adb0bf3704e0c3997d3a574c7860b97a5480cd01b732b | file hash of train/ft1_config.json |
+| FT1 training rows | de13068959892a449589361057d82ee100acea022b7e963be9b5025f3a55bce3 | train_rows.jsonl, 2,076 rows, program-only targets |
+| Held-out-source evaluation rows | 64db95f4a3d990dd5530c29b861da7d88b95dff6509aed51d2fe50caeb2d572c | eval_heldout.jsonl, 800 rows (Kather 2016, BBBC039) |
+| In-source evaluation rows | b98b069997ed82c8c1e871f07b8f778e6b70c1ccf51827771332de59f63c1c0a | eval_insource.jsonl, 238 rows |
+| Held-out rule output | 788ce8f50874c3085988cb8b52cb3516181c2cd0b5a225e92e4f64083f1166b3 | heldout.json (R-HELDOUT-SRC-v1) |
+
+Pushed after a three-row harness dry run, which saved nothing, and before the first evaluation
+generation or optimizer step. Research checkpoint only (Q2 sources in training, I-2).
