@@ -2100,3 +2100,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, Carolina Bays, one event against a long span of wind and waves: preregistration | e9da35b3d0d96c424c860d3b9c8edfe4e22ea3dcfbac72778dc48fc82a8e7926 | whole file PREREG.md, 5,732 bytes; hash computed 2026-11-14T07:54:15Z; written before any archive of the dataset was downloaded or opened |
+
+## 2026-11-14 (UTC), entry 93
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, earthwork detection on open lidar (Cahokia): preregistration | 5334274cad46cbcdc9043614cb3b9227cee959f5e1b31bbdf38b13bd6d6b0f29 | whole file PREREG.md, 5,839 bytes; hash computed 2026-11-14T08:00:00Z; no elevation or inventory data fetched |
