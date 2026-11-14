@@ -2190,3 +2190,12 @@ under the author's standing permission to push to his own repositories. Zain Dan
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Developmental study, blur first (simulated learner): preregistration draft 6.1, checksum file | 1e1522c2774eb6b7f873c8cb43c6f7612d183513ff97d7a6f8ad6c6aecd232ce | whole file REGISTRATION-v6.1.sha256, 12,339 bytes, 126 lines in the format of sha256sum, LF line endings; it lists the registration document and every file of the registered code, tests, launchers and stored pilot results; hash computed 2026-11-14T12:37:01Z; no study arm had been run; pilot runs were made and read before this entry |
+
+## 2026-11-14 (UTC), entry 103
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14 ("Yes, run the first experiment and keep everything else going")
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Fluid software, first experiment (two implementations of one colour tool as metamers under a blend weight): preregistration | 03452b3fc9e4f3dbde99175f297401b6097a1e083f2067bab5587aa5f323d9fa | whole file PREREG.md, 10,857 bytes; hash computed 2026-11-14T18:23:14Z; before any output of the Python implementation was compared with the BuildLang one; both had been run alone against the laws |
