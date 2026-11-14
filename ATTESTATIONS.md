@@ -2118,3 +2118,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, end of the Maltese Temple culture against climate records: preregistration | a9a071197125db73f1d2ff6d4eb61d4025d519d3fcded2a5f31831a084f03731 | whole file PREREG.md, 6,039 bytes; hash computed 2026-11-14T08:11:05Z; no matrix, date table or cave record fetched |
+
+## 2026-11-14 (UTC), entry 95
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, inland sea against Smith 1994 coastline: preregistration | 0d432585c32767f9769b5631c92bf5761a44e08279f6415d6d241f048e416bce | whole file PREREG.md, 7,216 bytes; hash computed 2026-11-14T11:33:39Z; coastline archive not downloaded; fossil table known from the first study |
