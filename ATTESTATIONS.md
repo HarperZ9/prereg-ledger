@@ -2181,3 +2181,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, Voynich text statistics against controls: preregistration | 97c458f0b5ae2d53b317ffa6127ff7ae93a7cad63f941c64d3770259ed2f5f9b | whole file PREREG.md, 6,203 bytes; hash computed 2026-11-14T12:24:35Z; before any transliteration or control text was fetched; licence page and format documentation only |
+
+## 2026-11-14 (UTC), entry 102
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the lead session's order of 2026-11-14,
+under the author's standing permission to push to his own repositories. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Developmental study, blur first (simulated learner): preregistration draft 6.1, checksum file | 1e1522c2774eb6b7f873c8cb43c6f7612d183513ff97d7a6f8ad6c6aecd232ce | whole file REGISTRATION-v6.1.sha256, 12,339 bytes, 126 lines in the format of sha256sum, LF line endings; it lists the registration document and every file of the registered code, tests, launchers and stored pilot results; hash computed 2026-11-14T12:37:01Z; no study arm had been run; pilot runs were made and read before this entry |
