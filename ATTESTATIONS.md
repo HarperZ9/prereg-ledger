@@ -2127,3 +2127,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, inland sea against Smith 1994 coastline: preregistration | 0d432585c32767f9769b5631c92bf5761a44e08279f6415d6d241f048e416bce | whole file PREREG.md, 7,216 bytes; hash computed 2026-11-14T11:33:39Z; coastline archive not downloaded; fossil table known from the first study |
+
+## 2026-11-14 (UTC), entry 96
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, Younger Dryas platinum peak timing: preregistration | c88d24cd7fa7e33fd377032efa28ee772e8798560cd6d797125c1001112ffc3d | whole file PREREG.md, 6,290 bytes; hash computed 2026-11-14T11:39:42Z; supplement PDF not downloaded; no platinum value or age read |
