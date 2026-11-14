@@ -2145,3 +2145,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, North American megafauna last appearances: preregistration | 7e7e5fcea5a40913429bb04e5e8c26bf680e738ba27843993072920038e87a70 | whole file PREREG.md, 6,579 bytes; hash computed 2026-11-14T11:46:56Z; two tables downloaded, header rows only read; no data row read |
+
+## 2026-11-14 (UTC), entry 98
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, Hurricane Maria excess deaths: preregistration | c5b4ece38375d7d18e2668c8c85d2334a4a969c6c6c2163d85e8eaaf77d1c825 | whole file PREREG.md, 5,871 bytes; hash computed 2026-11-14T11:50:17Z; dataset metadata and one index query read; no death count fetched |
