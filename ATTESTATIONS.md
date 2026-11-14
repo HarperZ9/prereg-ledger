@@ -2136,3 +2136,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, Younger Dryas platinum peak timing: preregistration | c88d24cd7fa7e33fd377032efa28ee772e8798560cd6d797125c1001112ffc3d | whole file PREREG.md, 6,290 bytes; hash computed 2026-11-14T11:39:42Z; supplement PDF not downloaded; no platinum value or age read |
+
+## 2026-11-14 (UTC), entry 97
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, North American megafauna last appearances: preregistration | 7e7e5fcea5a40913429bb04e5e8c26bf680e738ba27843993072920038e87a70 | whole file PREREG.md, 6,579 bytes; hash computed 2026-11-14T11:46:56Z; two tables downloaded, header rows only read; no data row read |
