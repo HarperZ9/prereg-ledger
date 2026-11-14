@@ -2163,3 +2163,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, Doggerland drowned land area: preregistration | 88876c19e24cede862f082f9853292e709fea359fdf43c964cd4556e3ae152ea | whole file PREREG.md, 8,239 bytes; hash computed 2026-11-14T11:56:42Z; before any bathymetry grid or sea-level table was fetched; documentation and service metadata only |
+
+## 2026-11-14 (UTC), entry 100
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, Catalhoyuk caprine and cattle balance across the site: preregistration | 5d68038005ddd8500970a99ae0906f6646e6833b29a0dcc528179f4a1062e8a1 | whole file PREREG.md, 6,966 bytes; hash computed 2026-11-14T12:17:29Z; before the data table was fetched; record metadata and field labels only |
