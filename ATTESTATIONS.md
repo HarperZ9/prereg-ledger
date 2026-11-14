@@ -2109,3 +2109,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, earthwork detection on open lidar (Cahokia): preregistration | 5334274cad46cbcdc9043614cb3b9227cee959f5e1b31bbdf38b13bd6d6b0f29 | whole file PREREG.md, 5,839 bytes; hash computed 2026-11-14T08:00:00Z; no elevation or inventory data fetched |
+
+## 2026-11-14 (UTC), entry 94
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, end of the Maltese Temple culture against climate records: preregistration | a9a071197125db73f1d2ff6d4eb61d4025d519d3fcded2a5f31831a084f03731 | whole file PREREG.md, 6,039 bytes; hash computed 2026-11-14T08:11:05Z; no matrix, date table or cave record fetched |
