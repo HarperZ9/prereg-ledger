@@ -2082,3 +2082,12 @@ Limits: both hashes were computed before the data was examined, and both were po
 finished (runs on 2026-11-14 between 07:00Z and 07:40Z; this entry on 2026-11-14 after them). The outside timestamp
 for these two plans therefore starts at this push and does not show that they preceded their results. Later studies
 in this series post the hash before the data is fetched.
+
+## 2026-11-14 (UTC), entry 91
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, White Sands footprints, seed against pollen radiocarbon offsets: preregistration | 209654456f237dd60f4a880757ead4aafc2c67f02165f9eca36eb466e3e2053d | whole file PREREG.md, 5,304 bytes; hash computed 2026-11-14T07:49:58Z; written before any file of the data release was downloaded or opened |
