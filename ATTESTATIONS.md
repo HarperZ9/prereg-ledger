@@ -2067,3 +2067,18 @@ Addendum to entry 89 (22:03Z): dry run (ft8_dryrun.py) under the lock 21:54:54Z 
 sources; all_pass true (ft8_dryrun.json). Dry checkpoint.pt deleted (D: space). Queue: MMBU-FT8-resume registered and
 started 21:59:40Z (pythonw ft8_watchdog.py, IgnoreNew, hidden); driver 18712 took the lock 21:59:42Z; train pid 51532.
 MMBU-FT7-resume removed itself at FT7 chain done. Stop: train/ft8/FT8.stop.
+
+## 2026-11-14 (UTC), entry 90
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14 relayed by
+the lead session: "Just run a series of a bunch of experiments". Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, inland sea: preregistration (Late Cretaceous marine fossils against reconstructed seaways, North America) | 1b993cc3ffaa6a5f48fe7db2bb915cc47011846946fc78e596d4c8d99048efc9 | whole file PREREG.md, 9,763 bytes; hash computed 2026-11-14T07:00:32Z, before any fossil table, count or plot was made |
+| Place studies, Lake Baikal: preregistration (biogenic silica against the LR04 ice-volume stack) | 529819cd1bd3db9961e35702fc7661bef57fc84b8cdf217f9143e7d27c51bc7c | whole file PREREG.md, 4,647 bytes; hash computed 2026-11-14T07:21:01Z, before the study's data files were downloaded |
+
+Limits: both hashes were computed before the data was examined, and both were posted here after the runs had
+finished (runs on 2026-11-14 between 07:00Z and 07:40Z; this entry on 2026-11-14 after them). The outside timestamp
+for these two plans therefore starts at this push and does not show that they preceded their results. Later studies
+in this series post the hash before the data is fetched.
