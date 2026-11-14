@@ -2091,3 +2091,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, White Sands footprints, seed against pollen radiocarbon offsets: preregistration | 209654456f237dd60f4a880757ead4aafc2c67f02165f9eca36eb466e3e2053d | whole file PREREG.md, 5,304 bytes; hash computed 2026-11-14T07:49:58Z; written before any file of the data release was downloaded or opened |
+
+## 2026-11-14 (UTC), entry 92
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, Carolina Bays, one event against a long span of wind and waves: preregistration | e9da35b3d0d96c424c860d3b9c8edfe4e22ea3dcfbac72778dc48fc82a8e7926 | whole file PREREG.md, 5,732 bytes; hash computed 2026-11-14T07:54:15Z; written before any archive of the dataset was downloaded or opened |
