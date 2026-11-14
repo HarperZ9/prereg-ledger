@@ -2172,3 +2172,12 @@ relayed by the lead session. Zain Dana Harper did not sign personally.
 | Record | SHA-256 | Scope of the hash |
 |---|---|---|
 | Place studies, Catalhoyuk caprine and cattle balance across the site: preregistration | 5d68038005ddd8500970a99ae0906f6646e6833b29a0dcc528179f4a1062e8a1 | whole file PREREG.md, 6,966 bytes; hash computed 2026-11-14T12:17:29Z; before the data table was fetched; record metadata and field labels only |
+
+## 2026-11-14 (UTC), entry 101
+
+Signer: Claude Fable 5.2 (an Anthropic model, research worker session), on the author's instruction of 2026-11-14
+relayed by the lead session. Zain Dana Harper did not sign personally.
+
+| Record | SHA-256 | Scope of the hash |
+|---|---|---|
+| Place studies, Voynich text statistics against controls: preregistration | 97c458f0b5ae2d53b317ffa6127ff7ae93a7cad63f941c64d3770259ed2f5f9b | whole file PREREG.md, 6,203 bytes; hash computed 2026-11-14T12:24:35Z; before any transliteration or control text was fetched; licence page and format documentation only |
