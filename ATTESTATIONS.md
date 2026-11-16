@@ -2067,3 +2067,40 @@ Addendum to entry 89 (22:03Z): dry run (ft8_dryrun.py) under the lock 21:54:54Z 
 sources; all_pass true (ft8_dryrun.json). Dry checkpoint.pt deleted (D: space). Queue: MMBU-FT8-resume registered and
 started 21:59:40Z (pythonw ft8_watchdog.py, IgnoreNew, hidden); driver 18712 took the lock 21:59:42Z; train pid 51532.
 MMBU-FT7-resume removed itself at FT7 chain done. Stop: train/ft8/FT8.stop.
+
+## 2026-11-14 (UTC), entry 90
+
+FT8 verdict by PREREG-FT8.md (entry 89), written late (MMBU submission-preparation agent, Claude Fable 5.2, for the
+lead session; entry appended 2026-11-14T22:34Z). The chain computed this verdict on 2026-10-21 and no entry recorded
+it. This entry adds no computation: every value below is read from train/ft8/bars_ft8.json by
+submission-2026-11-14/numbers.py.
+Pause and resume, not in any earlier entry: the author paused on 2026-10-16 ("Pause the MMBU work for now."); FT8.stop
+halted ft8_4b_train at 23:31:43Z after the step 500 checkpoint. He lifted the pause on 2026-10-21 ("Continue them
+all."); the driver restarted at 04:49:04Z and train4 resumed at step 500 (checkpoint 98d68ce2...).
+Chain: training 1,918 steps done 08:41:04Z (lora_state.pt 9025e8414f73ffb8e66045b0bd108ef5edbd03ba323b4920c8389f125f60bb48),
+dev task 08:41 to 08:51Z, dev context 08:51 to 09:41Z, held-out 09:41 to 10:06Z, all rc 0; lock released 10:06:18Z;
+"FT8 CHAIN DONE" 10:06:40Z (train/ft8/ft8_chain.log). score_ft8.py df6eed7e... unchanged from entry 89; bars_ft8.json
+03b5c2f4dc43450b7d6652d3ff47fcb64dcf3c399c1b8dcc1962455d9a891942; score_eval_heldout2_ft8.json
+342c1c5d33e045c8eacb1ab125f28c2eaa20b317e5b0c1e6dde65a19ee393b9e. Rule P4: C6 = FT7_4B.
+Dev d09ff622 minus 12 rows (3,091), paired bootstrap, seed 20261002, 10,000 resamples.
+
+| Bar | Result | score_v3 | Met |
+|---|---|---|---|
+| P1 dev Pass 1 JSON answer found, FT8_4B | 3,091 of 3,091 | n/a | yes |
+| P2 dev T FT8_4B minus FT7_4B (margin 0.01) | -0.0019 [-0.0084, 0.0049] | same | yes |
+| P3 dev C FT8_4B minus FT7_4B (margin 0.01) | +0.0079 [0.0048, 0.0111] | same | yes |
+| P4 dev adjS FT8_4B minus FT7_4B (candidacy) | +0.0000 [-0.0053, 0.0054] | same | no |
+| P5 held-out answer FT8_4B minus FT7_4B (margin 0.02) | -0.0062 [-0.0173, 0.0044] | not re-read | yes |
+
+R-CAND-REL-v1 (computed in score_ft8.py): not met, ft8_4b_candidate false. Two conditions fail: P4 (lower bound not
+above 0), and the format condition on the Pass 2 strict rate by point estimate (FT8_4B 0.9987 [0.9967, 0.9995]
+against FT7_4B 0.9994 [0.9976, 0.9998]). Pass 1 strict rate 1.0000 against 0.9997 and Pass 1 JSON 3,091 against 3,090
+are no worse. FT7_4B stays the Track 3 candidate. PREREG-FT8 trigger 2 applies (P1 met, candidacy not met): the
+long-list rows fix the format pattern and do not move S.
+Reported: FT8_4B dev T 0.2274 [0.2125, 0.2426], C 0.4737 [0.4648, 0.4823], adjS 0.2774 [0.2652, 0.2899]; FT7_4B dev T
+0.2294 [0.2142, 0.2446], C 0.4658 [0.4571, 0.4743], adjS 0.2774 [0.2651, 0.2900]. Dev T on the 219 detection rows,
+FT8_4B minus FT7_4B, +0.0046 [-0.0227, 0.0319]. On the 24 dev rows naming the cornea: T 0.0000 [0.0000, 0.0000], C
++0.4333 [0.4000, 0.4727]. Held-out context FT8_4B minus FT7_4B -0.0177 [-0.0287, -0.0053] (1,006 rows, 732 clusters).
+Not done: the held-out vocabulary reading for FT8 (heldout_vocab.py on arms ft7_4b,ft8_4b, preregistered at entry 87)
+was never run. FT8_4B is not packaged. No GPU step has run since 2026-10-21. Nothing is uploaded.
+Not committed by the signer.
